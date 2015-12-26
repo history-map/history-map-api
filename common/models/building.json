@@ -1,0 +1,54 @@
+{
+  "name": "Building",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "decade": {
+      "type": "string"
+    },
+    "structure": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "thumb": {
+      "type": "string"
+    },
+    "photos": {
+      "type": [
+        "string"
+      ]
+    },
+    "location": {
+      "type": "geopoint",
+      "required": true
+    },
+    "createdAt": {
+      "type": "date"
+    },
+    "lastModifiedAt": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

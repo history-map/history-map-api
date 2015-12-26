@@ -2,5 +2,14 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mapDS": {
+    "name": "mapDS",
+    "connector": "mysql",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "historical-maps",
+    "username": "root",
+    "password": ""
   }
 }

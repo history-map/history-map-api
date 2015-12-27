@@ -3,7 +3,7 @@ var path = require('path');
 var app = require(path.resolve(__dirname, '../server/server'));
 var ds = app.datasources.mapDS;
 ds.discoverSchema('Building', {
-  schema: 'historical-maps'
+  schema: 'history-map'
 }, function(err,
   schema) {
   if (err) throw err;

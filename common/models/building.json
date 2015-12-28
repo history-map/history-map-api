@@ -45,6 +45,12 @@
     },
     "lastModifiedAt": {
       "type": "date"
+    },
+    "events": {
+      "type": [
+        "object"
+      ],
+      "required": true
     }
   },
   "validations": [],

@@ -16,6 +16,8 @@ $ npm install
 # start mysql (OS X)
 $ mysql.server start
 
+# create a database named `history-map`
+
 # import sample data
 $ node bin/automigrate.js
 
